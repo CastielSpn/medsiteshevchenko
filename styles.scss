@@ -1,0 +1,77 @@
+// Переменные
+$primary-color: #007bff;
+$secondary-color: #ffc107;
+
+// Стили
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.145);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.125);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: lightgrey;
+    }
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f725;
+}
+
+footer {
+    text-align: center;
+    background-color: $secondary-color;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.199);
+}
+
+// Для мобильных устройств
+@media screen and (max-width: 767px) {
+    header {
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+// Для планшетов и десктопов
+@media screen and (min-width: 768px) {
+    main {
+        padding: 30px;
+    }
+}
+
+// Класс для фонового изображения
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

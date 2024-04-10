@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #e7c818;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    width: 300px;
+    background-color: rgb(211, 146, 41);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    color: #000000;
+}
+
+footer {
+    background-color: #ffd700;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    position: absolute;
+    left: 50%;
+    color: white;
+
+}
+
+.contact{
+    width: fit-content;
+    background-color: #D39229;
+    border-radius: 8px;
+}
+
+
+
