@@ -1,4 +1,3 @@
-// script.js
 const productCards = document.querySelectorAll('.product-card');
 const onas = document.querySelectorAll('.contact');
 
