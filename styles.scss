@@ -1,8 +1,6 @@
-// Переменные
 $primary-color: #007bff;
 $secondary-color: #ffc107;
 
-// Стили
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -50,7 +48,7 @@ footer {
     color: rgba(255, 255, 255, 0.199);
 }
 
-// Для мобильных устройств
+// Моб
 @media screen and (max-width: 767px) {
     header {
         padding: 5px;
@@ -62,7 +60,7 @@ footer {
     }
 }
 
-// Для планшетов и десктопов
+// Для планшета
 @media screen and (min-width: 768px) {
     main {
         padding: 30px;
